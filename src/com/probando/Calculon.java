@@ -1,9 +1,7 @@
-package com.videos;
-
-import java.sql.SQLOutput;
+package com.probando;
 import java.util.Scanner;
 
-public class video06 {
+public class Calculon {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -25,7 +23,8 @@ public class video06 {
             System.out.println("Introduzca una opcion.");
             System.out.print("--->");
             opcion = sc.nextInt();
-              if (opcion == 0) {
+
+            if (opcion == 0) {
                   break;
               }else if(opcion >=5){
                   System.out.println("----------- !! ERROR !! -----------");
@@ -69,7 +68,7 @@ public class video06 {
 
 
         } while (opcion != 0) ;
-        System.out.println("Ha elegido usted salir de la aplicacion, hasta pronto.");
+        System.out.println("Ha elegido usted salir de la aplicacion, hasta la vista.");
 
 
 
